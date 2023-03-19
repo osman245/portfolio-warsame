@@ -1,0 +1,52 @@
+jsx:Allows use emmet abbreviations making coding faster in react...
+JSX means you can write JavaScript code inside the HTML this is called JSX
+ Also JSX helps to make it easy to understand your code and important
+  point is easier to Debug your code. 
+Without JSX complex to handle and understand code. if you want to
+ create a large Application in reacting so without JSX handle All
+  component pieces of code are more difficult so using the JSX is 
+  handled to easily large applications.
+
+
+
+
+How to start off a single page React App....
+
+Make sure you have NodeJs installed...
+Download VSCode or your IDE of choice...
+
+Open VSCode..
+Download the starter files on command line using npx create-react-app <app name of choice>
+"cd <app-name> go into the created folder directory
+enter code . to start up a new VSCode window..
+npm start to start up the application
+Delete the unnecessary things
+
+
+Create folders..(components, image for images) create jsx and css files for all components
+Use emmmet
+Use rafce, to create an initial react module for jsx files
+put dummy data in all jsx modules to see how it would layout
+Put all components into the app jsx module because the entry point to the code, index.js, renders the App component.
+
+
+In the index css, get some google fonts..
+
+reset css....Set all elements to have margin,padding,border,outline to 0 and box-sizing to border box ensuring we dont take 
+up extra space..
+
+Set :root to redundant values that will be used throughout the course of the project.
+
+
+
+
+Go through index css , create and declare your properties..all components inherit indexcss, but only header gets headercss properties...
+
+Start off with the header.. create more and import components to the header component if need be.
+
+For icons install npm package "react-icons --save"
+
+
+Tackle jsx first, then add css in it.
+
+Tackle component by component one by one...
