@@ -14,16 +14,7 @@ image: IMG1,
 title:"EventBriteX",
 github:"https://github.com/osman245/EventBriteX",
 demo: "https://www.youtube.com/watch?v=dLS3YsIKvgA"
-},
-{
-  id:2,
-  image: IMG2,
-  title:"To-Do List App",
-  github:"https://github.com/osman245/EventBriteX",
-  demo: "https://www.youtube.com/watch?v=dLS3YsIKvgA"
-  }
-  
-   
+}  
 ]
 
 

@@ -5,11 +5,15 @@ const CTA = () => {
   return (
     <div className="cta">
       <a href={CV} download className="hvr btn">
-        Download CV
+        Download Resume
       </a>
       <a href="#contact" className=" btn">
         Let's Talk
       </a>
+      <a href="https://warsametechblog.gatsbyjs.io" className="hvr btn">
+        Blog
+      </a>
+
     </div>
   );
 };
