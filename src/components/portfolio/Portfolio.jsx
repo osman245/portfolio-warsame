@@ -1,5 +1,5 @@
 import React from 'react'
-import IMG1 from '../../assets/techpic.jpg'
+import IMG1 from '../../assets/pexels-gül-işık-13794311.jpg'
 import IMG2 from '../../assets/techpic2.png'
 import IMG3 from '../../assets/techpic3.png'
 import IMG4 from '../../assets/238exceptself.png'
@@ -13,7 +13,7 @@ id:1,
 image: IMG1,
 title:"EventBriteX",
 github:"https://github.com/osman245/EventBriteX",
-demo: "https://www.youtube.com/watch?v=dLS3YsIKvgA"
+demo: "https://www.youtube.com/watch?v=S-gv4tM1jsE"
 }  
 ]
 
@@ -42,7 +42,7 @@ const Portfolio = () => {
         </article>
        );
 
-
+//
       }
        )}        
     
