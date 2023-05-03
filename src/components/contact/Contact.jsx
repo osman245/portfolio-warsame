@@ -4,7 +4,10 @@ import {MdOutlineEmail} from 'react-icons/md'
 import './contact.css'
 const Contact = () => {
  const form = useRef();
+
  
+
+
  const sendEmail = (e) => {
   e.preventDefault();
 
@@ -14,6 +17,10 @@ const Contact = () => {
     }, (error) => {
         console.log(error.text);
     });
+  document.getElementById('email').value="";
+  document.getElementById('fullname').value="";
+  document.getElementById('textbox').value="";
+
 };
  
   return (
@@ -33,9 +40,9 @@ const Contact = () => {
  </div>
 {/* END OF CONTACT OPTIONS */}
 <form ref={form} onSubmit={sendEmail}>
-<input type="text" name='name' placeholder='Your Full Name' required />
-<input type="text" name='name' placeholder='Your Email' required />
-<textarea  name='message' rows="7" placeholder='Enter about your Inquiry here' required >
+<input type="text" name='name' placeholder='Your Full Name' id="fullname" required />
+<input type="text" name='name' placeholder='Your Email' required id="email" />
+<textarea  name='message' rows="7" placeholder='Enter about your Inquiry here' id="textbox" required >
   </textarea>
   <button type="submit" className="btn btn-primary">Send Message</button>
 </form>
