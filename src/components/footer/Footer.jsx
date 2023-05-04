@@ -10,7 +10,6 @@ const Footer = () => {
     <footer>
 <div className="footer__socials">
  <a href="https://medium.com/@warsameosman" target="_blank"><BsMedium/></a>
- <a href="https://twitter.com/Warsame_Osman99" target="_blank"><FaTwitter/></a>
  <a
         href="https://www.linkedin.com/in/warsame-osman-7998b2152/"
         target="_blank"
