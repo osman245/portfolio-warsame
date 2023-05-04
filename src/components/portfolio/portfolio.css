@@ -22,6 +22,26 @@ border-radius: 1.5rem;
 overflow: hidden;
 }
 
+/* .img__description {
+position:absolute;
+left:0;
+bottom: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  /* transition: opacity .2s, visibility .2s;
+} */
+
+/* .portfolio__item-image:hover .img__description {
+    visibility: visible;
+    opacity: 1;
+  } */ */
+
+
 .portfolio__item h3 {
 margin: 1.2rem 0 2rem;
 }

@@ -13,7 +13,7 @@ id:1,
 image: IMG1,
 title:"EventBriteX",
 github:"https://github.com/osman245/EventBriteX",
-demo: "https://www.youtube.com/watch?v=S-gv4tM1jsE"
+demo: "https://www.youtube.com/watch?v=ahuyPJRi5iY"
 }  
 ]
 

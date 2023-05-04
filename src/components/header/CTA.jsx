@@ -10,9 +10,9 @@ const CTA = () => {
       <a href="#contact" className=" btn">
         Let's Talk
       </a>
-      <a href="https://warsametechblog.gatsbyjs.io" className="hvr btn">
+      {/* <a href="https://warsametechblog.gatsbyjs.io" className="hvr btn">
         Blog
-      </a>
+      </a> */}
 
     </div>
   );
