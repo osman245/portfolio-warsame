@@ -35,7 +35,7 @@ const Contact = () => {
     <MdOutlineEmail/>
   <h4>Email</h4>
   <h6>osm.warsame@gmail.com</h6>
-  <a href="mailtp:dummyegator">Send a message</a>
+  <a href="mailto: osm.warsame@gmail.com">Send a message</a>
   </article>
  </div>
 {/* END OF CONTACT OPTIONS */}
